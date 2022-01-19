@@ -1,0 +1,20 @@
+#user_info,#user_skills{
+    background-color: #ccd7ea;  
+    padding:50px;
+}
+#user_info{
+    margin-left: 20%;
+    margin-right: 2%;
+}
+#user_skills{
+    margin-right: 20%;
+    margin-left: 2%;
+}
+
+.img-thumbnail{
+    width: 40%,
+    margin 2%;
+}
+.skills{
+    text-align: left;
+}
