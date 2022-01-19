@@ -7,6 +7,11 @@ class UserSerializer(serializers.ModelSerializer):
         fields = (
             'id',
             'name',
-            'description',
+            'headline',
+            'pictureThumbnail',
+            'summary',
+            'skills',
         )
         model = User
+
+     
