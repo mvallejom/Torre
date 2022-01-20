@@ -26,9 +26,14 @@ class UserSkills extends Component {
                 <div className='row'>
                     <div className ="col" id = "user_info">
                     <img src='https://upload.wikimedia.org/wikipedia/commons/a/a7/Blank_image.jpg' alt="Profile" className="img-thumbnail"></img>
-                    <h2 className = "user_name">name</h2>
-                    <h4 className ="headline "> headline</h4>
-                    <h4 className = "summary"> summary</h4>
+                    <br></br>
+                    <div class="username_info">
+                        <h1>User Name<span>Profession</span></h1>
+                        </div>
+                        <div class="summary">
+                            <h1>summary</h1>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar lobortis nibh, ut tempor lacus blandit id.</span>
+                                </div>
                     </div>
                     <div className ="col" id = "user_skills">
                     <h1 className ="user_skills"> User Skills</h1>
